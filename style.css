@@ -1,0 +1,40 @@
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    bottom: 0px;
+    left: 5%;
+}
+
+#greetings {
+    font-size: 55px;
+    color: #0F9D58;
+}
+
+#introduction {
+    font-weight: lighter;
+}
+
+#name_inline {
+    color: #F4B400;
+    font-weight: bold;
+}
+
+#carousel {
+    position: relative;
+    height: 100%;
+}
+
+#dogPhoto{
+    position: absolute;
+    height: 25em;
+    top: 20%;
+    right: 5%;
+}
