@@ -4,28 +4,50 @@ html, body{
     height: 100%;
 }
 
-.flex-container {
-    display: flex;
+.topNav {
     position: absolute;
+    text-align: right;
+    right: 40px;
     width: 100%;
-    top: 20%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+header {
+    position: absolute;
+    height: 50em;
+    width: 100%;
+    top: 0px;
+    background-color: #f6d51f;
+}
+
+#header_content {
+    position: relative;
+    top: 10em;
+    left: 40px;
 }
 
 #greetings {
-    font-size: 55px;
-    color: #0F9D58;
+    font-size: 60px;
+    color: #fa5457;
 }
 
 #introduction {
     font-weight: lighter;
+    font-weight: bold;
+    color: #5fa55a;
 }
 
-#name_inline {
-    color: #F4B400;
-    font-weight: bold;
+#carousel {
+    position: absolute;
+    height: 50em;
+    width: 100%;
+    top: 50em;
+    text-align: center;
+    background-color: #01b4bc;
+}
+
+#carousel_content {
+    position: relative;
+    top: 10em;
 }
 
 #portfolioImages {
