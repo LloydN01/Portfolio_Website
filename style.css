@@ -2,13 +2,47 @@ html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     height: 100%;
+   -ms-user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
 }
 
 .topNav {
     position: absolute;
-    text-align: right;
-    right: 40px;
+    display: flex;
+    top: 30px;
     width: 100%;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 40px;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5fa55a;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+#about_a {
+    right: 0px;
+}
+
+#projects_a {
+    right: 6.5em;
+}
+
+#home_a {
+    right: 15em;
 }
 
 header {
@@ -26,12 +60,12 @@ header {
 }
 
 #greetings {
-    font-size: 60px;
+    font-size: 6em;
     color: #fa5457;
 }
 
 #introduction {
-    font-weight: lighter;
+    font-size: 35px;
     font-weight: bold;
     color: #5fa55a;
 }
@@ -54,3 +88,31 @@ header {
     height: 30em;
     width: 53.333em;
 }
+
+.arrows {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 13em;
+}
+
+.arrow {
+    border: solid #fa5457;
+    border-width: 0 10px 10px 0;
+    padding: 20px;
+    display: inline-block;
+}
+
+.right {
+    position: relative;
+    right: 15em;
+    transform: rotate(-45deg);
+}
+
+.left {
+    position: relative;
+    left: 15em;
+    transform: rotate(135deg);
+}
+  

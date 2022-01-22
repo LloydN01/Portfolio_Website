@@ -9,8 +9,9 @@
     <body>
         <div>
             <div class="topNav">
-                <a href="home.html">HOME</a>
-                <a href="about.html">ABOUT</a>
+                <a id="home_a" href="home.html">HOME</a>
+                <a id="projects_a" href="#carousel_content">PROJECTS</a>
+                <a id="about_a" href="about.html">ABOUT</a>
             </div>
             <header>
                 <div id="header_content">
@@ -24,8 +25,10 @@
                 <div id="carousel_content">
                     <img src="portfolio0.JPG" alt="cherryMx product landing page" id="portfolioImages">
                     <p id="description">This is a placeholder text.</p>
-                    <button onclick="backArrow()" class="arrow left">back</button>
-                    <button onclick="nextArrow()" class="arrow right">next</button>
+                    <div class="arrows">
+                        <p onclick="backArrow()" class="arrow left"></p>
+                        <p onclick="nextArrow()" class="arrow right"></p>
+                    </div>
                 </div>
             </div>
         </div>
