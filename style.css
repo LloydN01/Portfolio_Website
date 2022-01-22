@@ -47,7 +47,7 @@ a:hover {
 
 header {
     position: absolute;
-    height: 50em;
+    height: 60em;
     width: 100%;
     top: 0px;
     background-color: #f6d51f;
@@ -74,7 +74,7 @@ header {
     position: absolute;
     height: 50em;
     width: 100%;
-    top: 50em;
+    top: 60em;
     text-align: center;
     background-color: #01b4bc;
 }
