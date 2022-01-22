@@ -1,8 +1,7 @@
 const images = [
-    "0.jpg",
-    "1.jpg",
-    "2.jpg",
-    "3.jpg"
+    "portfolio0.jpg",
+    "portfolio1.jpg",
+    "portfolio2.jpg"
 ];
 
 let index = 0;
@@ -13,7 +12,7 @@ const backArrow = () => {
     } else{
         index -= 1;
     }
-    document.getElementById("placeholderImg").src = images[index];
+    document.getElementById("portfolioImages").src = images[index];
 }
 
 const nextArrow = () => {
@@ -22,5 +21,5 @@ const nextArrow = () => {
     } else{
         index += 1;
     }
-    document.getElementById("placeholderImg").src = images[index];
+    document.getElementById("portfolioImages").src = images[index];
 }
