@@ -72,7 +72,7 @@ header {
 
 #carousel {
     position: absolute;
-    height: 50em;
+    height: 60em;
     width: 100%;
     top: 60em;
     text-align: center;
@@ -81,12 +81,12 @@ header {
 
 #carousel_content {
     position: relative;
-    top: 10em;
+    top: 13em;
 }
 
 #portfolioImages {
-    height: 30em;
-    width: 53.333em;
+    height: 36em;
+    width: 70em;
 }
 
 .arrows {
