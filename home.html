@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Probabily will have to adjust the scaling -->
         <title>Lloyd Na Portfolio</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen"></link>
         <script src="script.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div>
-            <div class="topNav">
-                <a id="home_a" href="home.html">HOME</a>
-                <a id="projects_a" href="#carousel_content">PROJECTS</a>
-                <a id="about_a" href="about.html">ABOUT</a>
-            </div>
-            <header>
-                <div id="header_content">
-                    <h1 id="greetings">Hello, World!</h1>
-                    <h2 id="introduction">I'm Lloyd Na, <br> A Computer Science
-                         & Data Science student <br> aspiring to be a software developer</h2>
-                </div>
-            </header>
+        <div class="BTT">
+            <a id="BTTButton" href="#topNav"><p id="upArrow"></p></a>
+        </div>
 
-            <div id="carousel">
-                <div id="carousel_content">
-                    <img src="portfolio0.JPG" alt="cherryMx product landing page" id="portfolioImages">
-                    <p id="description">This is a placeholder text.</p>
-                    <div class="arrows">
-                        <p onclick="backArrow()" class="arrow left"></p>
-                        <p onclick="nextArrow()" class="arrow right"></p>
-                    </div>
-                </div>
+        <div id="topNav">
+            <a class="navA" id="home_a" href="home.html">HOME</a>
+            <a class="navA" id="projects_a" href="#carousel_content">PROJECTS</a>
+            <a class="navA" id="about_a" href="about.html">ABOUT</a>
+        </div>
+
+        <header>
+            <div id="header_content">
+                <h1 id="greetings">Hello, World!</h1>
+                <h2 id="introduction">I'm Lloyd Na, <br> A Computer Science
+                    & Data Science student <br> aspiring to be a software developer</h2>
             </div>
+        </header>
+
+        <div id="carousel">
+            <div id="carousel_content">
+                <h1 id="project_title">Here are some <br> of my projects!</h1>
+                </h1>
+                <div class="arrows">
+                    <p onclick="backArrow()" class="arrow_left"></p>
+                    <img src="portfolio0.JPG" alt="cherryMx product landing page" id="portfolioImages">
+                    <p onclick="nextArrow()" class="arrow_right"></p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div id="thirdPage">
+            <img id="thirdPageImg" src="portfolio0.JPG" alt="product landing page for mechanical keyboards">
+            <!-- change the href of the images anytime I want -->
+
+        </div>
+
+        <div id="fourthPage">
+
         </div>
     </body>
 </html>
