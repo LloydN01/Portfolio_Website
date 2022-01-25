@@ -22,6 +22,7 @@ html, body{
     border-width: 0 10px 10px 0;
     padding: 10px;
     transform: rotate(225deg);
+    color: #fa5457;
 }
 
 #upArrow:hover {

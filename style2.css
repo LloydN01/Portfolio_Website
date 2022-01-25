@@ -1,0 +1,58 @@
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    height: 100vh;
+   -ms-user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+   width: 100%;
+}
+
+#topNav {
+    position: absolute;
+    display: flex;
+    top: 30px;
+    width: 100%;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 40px;
+}
+
+.navA {
+    position: absolute;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5fa55a;
+}
+
+#about_a {
+    right: 0px;
+}
+
+#about_a:hover{
+    font-size: larger;
+    right:-2px;
+}
+
+#projects_a {
+    right: 6.5em;
+}
+
+#projects_a:hover{
+    font-size: larger;
+    right: 5.8em;
+}
+
+#home_a {
+    right: 15em;
+}
+
+#home_a:hover{
+    font-size: larger;
+    right: 13.9em;
+}
