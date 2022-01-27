@@ -40,6 +40,7 @@ html, body{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    transition: all 0.3s ease-out;
 }
 
 #about_a {
@@ -107,6 +108,7 @@ html, body{
     font-weight: bolder;
     border-color: white;
     border-style: solid;
+    transition: all 0.3s ease-out;
 }
 
 #githubLink {
@@ -117,6 +119,7 @@ html, body{
     font-weight: bolder;
     border-color: white;
     border-style: solid;
+    transition: all 0.3s ease-out;
 }
 
 #linkedInLink:hover {

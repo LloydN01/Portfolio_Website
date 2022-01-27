@@ -24,6 +24,7 @@ html, body{
     padding: 10px;
     transform: rotate(225deg);
     color: #ffa500;
+    transition: all 0.3s ease-out;
 }
 
 #upArrow:hover {
@@ -51,6 +52,7 @@ html, body{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    transition: all 0.3s ease-out;
 }
 
 #about_a {
@@ -159,6 +161,7 @@ header {
     transform: rotate(-45deg);
     top: 38%;
     cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
 .arrow_left {
@@ -171,6 +174,7 @@ header {
     transform: rotate(135deg);
     top: 38%;
     cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
 .arrow_left:hover {
