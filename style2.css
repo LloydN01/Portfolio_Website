@@ -8,6 +8,18 @@ html, body{
    -khtml-user-select: none;
    user-select: none;
    width: 100%;
+   background-color: #282828;
+}
+
+#topNav {
+    position: absolute;
+    display: flex;
+    top: 30px;
+    width: 100%;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 40px;
 }
 
 #topNav {
@@ -27,7 +39,7 @@ html, body{
     font-size: large;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #5fa55a;
+    color: #1efffe;
 }
 
 #about_a {
@@ -37,6 +49,7 @@ html, body{
 #about_a:hover{
     font-size: larger;
     right:-2px;
+    color: #ffa500;
 }
 
 #projects_a {
@@ -46,6 +59,7 @@ html, body{
 #projects_a:hover{
     font-size: larger;
     right: 5.8em;
+    color: #ffa500;
 }
 
 #home_a {
@@ -55,4 +69,45 @@ html, body{
 #home_a:hover{
     font-size: larger;
     right: 13.9em;
+    color: #ffa500;
+}
+
+#info {
+    position: relative;
+    top: 10em;
+    width: 100%;
+    left: 40px;
+}
+
+#title {
+    width: 100%;
+    color: #ffa500;
+    font-size: 6em;
+}
+
+#info-content {
+    font-size: 20px;
+    font-weight: lighter;
+    color:  #1efffe;
+}
+
+.links {
+    position: absolute;
+    z-index: 1;
+    float: right;
+    right: 40px;
+}
+
+#linkedInLink {
+    color:  #1efffe;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#githubLink {
+    color:  #1efffe;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: lighter;
 }

@@ -8,6 +8,7 @@ html, body{
    -khtml-user-select: none;
    user-select: none;
    width: 100%;
+   background-color: #282828;
 }
 
 .BTT {
@@ -22,7 +23,7 @@ html, body{
     border-width: 0 10px 10px 0;
     padding: 10px;
     transform: rotate(225deg);
-    color: #fa5457;
+    color: #ffa500;
 }
 
 #upArrow:hover {
@@ -49,7 +50,7 @@ html, body{
     font-size: large;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #5fa55a;
+    color: #1efffe;
 }
 
 #about_a {
@@ -59,6 +60,7 @@ html, body{
 #about_a:hover{
     font-size: larger;
     right:-2px;
+    color: #ffa500;
 }
 
 #projects_a {
@@ -68,6 +70,7 @@ html, body{
 #projects_a:hover{
     font-size: larger;
     right: 5.8em;
+    color: #ffa500;
 }
 
 #home_a {
@@ -77,14 +80,15 @@ html, body{
 #home_a:hover{
     font-size: larger;
     right: 13.9em;
+    color: #ffa500;
 }
 
 header {
     position: absolute;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     top: 0px;
-    background-color: #f6d51f;
+    background-color: #282828;
 }
 
 #header_content {
@@ -95,59 +99,56 @@ header {
 
 #greetings {
     font-size: 6em;
-    color: #fa5457;
+    color:  #ffa500;
 }
 
 #introduction {
     font-size: 35px;
-    font-weight: bold;
-    color: #5fa55a;
+    font-weight: lighter;
+    color:  #1efffe;
 }
 
 #carousel {
     position: absolute;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
-    top: 110vh;
-    background-color: #94d9d4;
+    top: 100vh;
+    background-color: #282828;
 }
 
 
 #carousel_content {
+    top: 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    text-align: center;
+    color: #1efffe;
+    height: 100vh;
 }
 
-#project_title {
+.carousel_slides {
     position: relative;
-    color: #5fa55a;
-    font-size: 30px;
-    font-weight: bold;
     width: 100%;
-    left: 40px;
-}
-
-.arrows {
-    position: absolute;
-    width: 100%;
-    text-align: right;
 }
 
 .arrow_right {
-    border: solid #5fa55a;
+    border: solid #ffa500;
     border-width: 0 10px 10px 0;
     padding: 20px;
-    display: inline-block;
+    display: inline;
     position: absolute;
     right: 8em;
     transform: rotate(-45deg);
 }
 
 .arrow_left {
-    border: solid #5fa55a;
+    border: solid #ffa500;
     border-width: 0 10px 10px 0;
     padding: 20px;
-    display: inline-block;
+    display: inline;
     position: absolute;
     left: 8em;
     transform: rotate(135deg);
@@ -155,10 +156,14 @@ header {
 
 .arrow_left:hover {
     border-width: 0 11px 11px 0;
+    border-width: 10px;
+    border-radius: 50%;
 }
 
 .arrow_right:hover {
     border-width: 0 11px 11px 0;
+    border-width: 10px;
+    border-radius: 50%;
 }
 
 #portfolioImages {
@@ -166,30 +171,4 @@ header {
     border-radius: 25px;
     height: 28%;
     width: 60%;
-    border-width: 20px;
-    border-color: #5fa55a;
-    border-style: solid;
-}
-
-#thirdPage {
-    position: absolute;
-    background-color: #fb9a93;
-    height: 110vh;
-    top: 220vh;
-    width: 100%;
-}
-
-#thirdPageImg {
-    position: relative;
-    top: 10%;
-    height: 30em;
-    width: 60em;
-}
-
-#fourthPage {
-    position: absolute;
-    background-color: #00FFFF;
-    height: 110vh;
-    top: 330vh;
-    width: 100%;
 }
