@@ -195,3 +195,216 @@ header {
     height: 28%;
     width: 60%;
 }
+
+.pacman {
+    position: relative;
+    display: flex;
+}
+
+.pac {
+    top: 20px;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: pacman 2s infinite;
+    float: left;
+}
+
+@keyframes pacman {
+    0% {
+        background-image: conic-gradient(yellow 0deg, yellow 40deg, black 40deg, black 140deg, yellow 140deg, yellow 180deg);
+        left: 4em;
+    }
+
+    10% {
+        background-image: conic-gradient(yellow 0deg, yellow 40deg, black 40deg, black 140deg, yellow 140deg, yellow 180deg);
+        left: 6em;
+    }
+
+    20% {
+        background-image: conic-gradient(yellow 0deg, yellow 65deg, black 65deg, black 115deg, yellow 115deg, yellow 180deg);
+        left: 8em;
+    }
+
+    30% {
+        background-image: conic-gradient(yellow 0deg, yellow 90deg, black 90deg, black 90deg, yellow 90deg, yellow 180deg);
+        left: 10em;
+    }
+
+    40% {
+        background-image: conic-gradient(yellow 0deg, yellow 65deg, black 65deg, black 115deg, yellow 115deg, yellow 180deg);
+        left: 12em;
+    }
+
+    50% {
+        background-image: conic-gradient(yellow 0deg, yellow 40deg, black 40deg, black 140deg, yellow 140deg, yellow 180deg);
+        left: 14em;
+    }
+
+    60% {
+        background-image: conic-gradient(yellow 0deg, yellow 40deg, black 40deg, black 140deg, yellow 140deg, yellow 180deg);
+        left: 16em;
+    }
+
+    70% {
+        background-image: conic-gradient(yellow 0deg, yellow 65deg, black 65deg, black 115deg, yellow 115deg, yellow 180deg);
+        left: 18em
+    }
+
+    80% {
+        background-image: conic-gradient(yellow 0deg, yellow 90deg, black 90deg, black 90deg, yellow 90deg, yellow 180deg);
+        left: 20em;
+    }
+
+    90% {
+        background-image: conic-gradient(yellow 0deg, yellow 65deg, black 65deg, black 115deg, yellow 115deg, yellow 180deg);
+        left: 22em;
+    }
+
+    100% {
+        background-image: conic-gradient(yellow 0deg, yellow 40deg, black 40deg, black 140deg, yellow 140deg, yellow 180deg);
+        left: 24em;
+    }
+}
+
+.mints0 {
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    top: 5.5em;
+    left: 15em;
+    animation: mint1Animation 2s infinite;
+}
+
+@keyframes mint1Animation {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: black;
+        z-index: -1;
+    }
+
+    75% {
+        background-color: black;
+        z-index: -1;
+    }
+
+    100% {
+        background-color: black;
+        z-index: -1;
+    }
+}
+
+.mints1 {
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    top: 5.5em;
+    left: 20em;
+    animation: mint2Animation 2s infinite;
+}
+
+@keyframes mint2Animation {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: black;
+        z-index: -1;
+    }
+
+    100% {
+        background-color: black;
+        z-index: -1;
+    }
+}
+
+.mints2 {
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    top: 5.5em;
+    left: 25em;
+    animation: mint3Animation 2s infinite;
+}
+
+@keyframes mint3Animation {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: black;
+        z-index: -1;
+    }
+}
+
+
+.mints3 {
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    top: 5.5em;
+    left: 30em;
+    animation: mint4Animation 2s infinite;
+}
+
+@keyframes mint4Animation {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: black;
+        z-index: -1;
+    }
+}
