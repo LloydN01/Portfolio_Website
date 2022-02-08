@@ -189,11 +189,29 @@ header {
     border-radius: 50%;
 }
 
-#portfolioImages {
+#carouselImage {
     position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+#portfolioImages {
+    position: absolute;
     border-radius: 25px;
-    height: 28%;
-    width: 60%;
+    height: 30em;
+    width: 60em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+#portfolioImages:hover {
+    height: 31em;
+    width: 61em;
+    box-shadow: 15px 15px 5px black;
 }
 
 .pacman {
