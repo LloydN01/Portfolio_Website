@@ -208,7 +208,7 @@ header {
     height: 10em;
     border-radius: 50%;
     background-color: yellow;
-    animation: pacman 3.5s infinite;
+    animation: pacman 4s infinite;
     float: right;
     top: 20em;
 }
@@ -216,57 +216,57 @@ header {
 @keyframes pacman {
     0% {
         background-image: conic-gradient(yellow 0deg, yellow 50deg, #282828 50deg, #282828 130deg, yellow 130deg, yellow 180deg);
-        right: 25em;
+        right: 24em;
     }
 
     10% {
         background-image: conic-gradient(yellow 0deg, yellow 360deg);
-        right: 20em;
+        right: 19em;
     }
 
     20% {
         background-image: conic-gradient(yellow 0deg, yellow 50deg, #282828 50deg, #282828 130deg, yellow 130deg, yellow 180deg);
-        right: 15em;
+        right: 14em;
     }
 
     30% {
         background-image: conic-gradient(yellow 0deg, yellow 360deg);
-        right: 10em;
+        right: 9em;
     }
 
     40% {
         background-image: conic-gradient(yellow 0deg, yellow 50deg, #282828 50deg, #282828 130deg, yellow 130deg, yellow 180deg);
-        right: 5em;
+        right: 4em;
     }
 
     50% {
         background-image: conic-gradient(yellow 0deg, yellow 360deg);
-        right: 0em;
+        right: -1em;
     }
 
     60% {
         background-image: conic-gradient(yellow 0deg, yellow 230deg, #282828 230deg, #282828 310deg, yellow 310deg, yellow 360deg);
-        right: 5em;
+        right: 4em;
     }
 
     70%{
         background-image: conic-gradient(yellow 0deg, yellow 360deg);
-        right: 10em;
+        right: 9em;
     }
 
     80% {
         background-image: conic-gradient(yellow 0deg, yellow 230deg, #282828 230deg, #282828 310deg, yellow 310deg, yellow 360deg);
-        right: 15em;
+        right: 14em;
     }
 
     90% {
         background-image: conic-gradient(yellow 0deg, yellow 360deg);
-        right: 20em;
+        right: 19em;
     }
 
     100% {
         background-image: conic-gradient(yellow 0deg, yellow 230deg, #282828 230deg, #282828 310deg, yellow 310deg, yellow 360deg);
-        right: 25em;
+        right: 24em;
     }
 }
 
@@ -274,6 +274,7 @@ header {
     position: relative;
     top: 25em;
     width: 100%;
+    transition: all ;
 }
 
 .mints1 {
@@ -283,11 +284,43 @@ header {
     height: 1em;
     width: 1em;
     right: 24.5em;
-    animation: mint1Animation 2s infinite;
+    animation: mint1Animation 4s infinite;
 }
 
 @keyframes mint1Animation {
-    
+    0%{
+        z-index: 1;
+    }
+    10%{
+        z-index: -1;
+    }
+    20%{
+        z-index: -1;
+    }
+    30%{
+        z-index: -1;
+    }
+    40%{
+        z-index: -1;
+    }
+    50%{
+        z-index: 1;
+    }
+    60%{
+        z-index: 1;
+    }
+    70%{
+        z-index: 1;
+    }
+    80%{
+        z-index: 1;
+    }
+    90%{
+        z-index: 1;
+    }
+    100%{
+        z-index: -1;
+    }
 }
 
 .mints2 {
@@ -297,11 +330,43 @@ header {
     height: 1em;
     width: 1em;
     right: 19.5em;
-    animation: mint2Animation 2s infinite;
+    animation: mint2Animation 4s infinite;
 }
 
 @keyframes mint2Animation {
-    
+    0%{
+        z-index: 1;
+    }
+    10%{
+        z-index: 1;
+    }
+    20%{
+        z-index: -1;
+    }
+    30%{
+        z-index: -1;
+    }
+    40%{
+        z-index: -1;
+    }
+    50%{
+        z-index: 1;
+    }
+    60%{
+        z-index: 1;
+    }
+    70%{
+        z-index: 1;
+    }
+    80%{
+        z-index: 1;
+    }
+    90%{
+        z-index: -1;
+    }
+    100%{
+        z-index: -1;
+    }
 }
 
 .mints3 {
@@ -311,11 +376,43 @@ header {
     height: 1em;
     width: 1em;
     right: 14.5em;
-    animation: mint3Animation 2s infinite;
+    animation: mint3Animation 4s infinite;
 }
 
 @keyframes mint3Animation {
-    
+    0%{
+        z-index: 1;
+    }
+    10%{
+        z-index: 1;
+    }
+    20%{
+        z-index: 1;
+    }
+    30%{
+        z-index: -1;
+    }
+    40%{
+        z-index: -1;
+    }
+    50%{
+        z-index: 1;
+    }
+    60%{
+        z-index: 1;
+    }
+    70%{
+        z-index: 1;
+    }
+    80%{
+        z-index: -1;
+    }
+    90%{
+        z-index: -1;
+    }
+    100%{
+        z-index: -1;
+    }
 }
 
 
@@ -326,9 +423,41 @@ header {
     height: 1em;
     width: 1em;
     right: 9.5em;
-    animation: mint4Animation 2s infinite;
+    animation: mint4Animation 4s infinite;
 }
 
 @keyframes mint4Animation {
-    
+    0%{
+        z-index: 1;
+    }
+    10%{
+        z-index: 1;
+    }
+    20%{
+        z-index: 1;
+    }
+    30%{
+        z-index: 1;
+    }
+    40%{
+        z-index: -1;
+    }
+    50%{
+        z-index: 1;
+    }
+    60%{
+        z-index: -1;
+    }
+    70%{
+        z-index: -1;
+    }
+    80%{
+        z-index: -1;
+    }
+    90%{
+        z-index: -1;
+    }
+    100%{
+        z-index: -1;
+    }
 }
